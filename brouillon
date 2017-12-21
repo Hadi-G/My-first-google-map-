@@ -1,0 +1,42 @@
+
+
+// zoom.addEventListener('click', function(){
+//   map = new google.maps.Map(document.getElementById('map'), {
+//     center: paris,
+//     zoom: 11
+//   });
+//
+// });
+//
+// reduce.addEventListener('click', function(){
+//   map = new google.maps.Map(document.getElementById('map'), {
+//     center: paris,
+//     zoom: 5
+//   });
+//
+// });
+//
+// normal.addEventListener('click', function(){
+//   map = new google.maps.Map(document.getElementById('map'), {
+//     center: paris,
+//     zoom: 8
+//   });
+//
+// });
+
+// map = new google.maps.Map(document.getElementById('map'), {
+//   center: myLatLng,
+//   zoom: 11
+// });
+//
+// var marker = new google.maps.Marker({
+//   position: myLatLng,
+//   map: map,
+//   title: 'Hello World!'
+// });
+//
+// map.addListener('click', function(event){
+  // map.setCenter(event.latLng);
+  // map.setZoom(11);
+  // marker.setPosition(event.latLng);
+  // myLatLng = event.latLng;
